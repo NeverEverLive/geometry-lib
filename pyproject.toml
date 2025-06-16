@@ -1,0 +1,16 @@
+[project]
+name = "geometry"
+version = "0.1.0"
+description = "Library for calculating area of the figures"
+authors = [
+    {name = "Nikolay Pushkarev",email = "nevereverlives@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.4.0"
